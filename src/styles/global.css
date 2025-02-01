@@ -3,4 +3,17 @@
 
   --bg-icon: #131313;
   --bg-arrow-color: rgba(0, 0, 0, 7);
+
+  --primary-color: #1db954;
+  --background-color: #121212;
+  --text-color: #fff;
+  --card-hover-color: #252525;
+}
+
+.artist-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.artist-card:hover {
+  transform: scale(1.02);
 }

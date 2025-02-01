@@ -43,12 +43,12 @@ body {
 }
 
 .sidebar__navigation {
-  background-color: #121212;
+  background-color: var(--background-color);
   border-radius: 8px;
   padding: 16px 16px;
 
   .logo {
-    background-color: #121212;
+    background-color: var(--background-color);
     display: flex;
     border-radius: 8px;
 
@@ -59,7 +59,7 @@ body {
 }
 
 .library {
-  background-color: #121212;
+  background-color: var(--background-color);
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -120,7 +120,7 @@ body {
 
     .text {
       padding-bottom: 14px;
-      color: #fff;
+      color: var(--text-color);
     }
 
     .title {
@@ -136,7 +136,7 @@ body {
   .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--text-color);
     color: #000;
     border-radius: 20px;
     font-size: 12px;
@@ -155,7 +155,7 @@ body {
     background-color: transparent;
     border: 1px solid #878787;
     border-radius: 20px;
-    color: #fff;
+    color: var(--text-color);
     font-weight: 700;
     cursor: pointer;
     width: 170px;
@@ -179,7 +179,7 @@ body {
   }
 
   .disclaimer-premium__title {
-    color: #ffffff;
+    color: var(--text-color);
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
@@ -187,13 +187,13 @@ body {
   }
 
   .disclaimer-premium__subtitle {
-    color: #ffffff;
+    color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
   }
 
   button {
-    background-color: #ffffff;
+    background-color: var(--text-color);
     color: #000000;
     font-size: 16px;
     font-weight: bold;
